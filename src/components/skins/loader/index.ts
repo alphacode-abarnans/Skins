@@ -1,0 +1,1 @@
+export { default as LoaderSkin } from './loader.skin';

@@ -1,0 +1,1 @@
+export { default as ButtonSkin } from './button.skin';
