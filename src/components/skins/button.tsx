@@ -7,7 +7,7 @@ const ButtonSkin: com.qbit.Skin<ButtonProps> = (props: com.qbit.SkinProps<Button
 
   return (
     <button
-      className={`py-2 px-4 rounded-lg bg-blue-300 font-medium text-blue-800 ${disabled ? 'opacity-60' : 'hover:bg-green-600 text-white'}`}
+      className={`py-2 px-4 rounded-lg bg-blue-300 font-medium text-blue-800 ${disabled ? 'opacity-60' : 'hover:bg-green-600'}`}
       tabIndex={tabIndex}
       disabled={disabled}
       onClick={onClick}
